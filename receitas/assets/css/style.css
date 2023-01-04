@@ -1,0 +1,29 @@
+@import url(../css/sub-estilos/header.css);
+@import url(../css/sub-estilos/banner.css);
+@import url(../css/sub-estilos/principal.css);
+@import url(../css/sub-estilos/aside.css);
+@import url(../css/sub-estilos/rodape.css);
+
+
+:root {
+
+    --font-principal: 'Roboto', sans-serif;
+    --font-secundaria: 'Pacifico', sans-serif;
+    --branco-font: #FFFFFF;
+    --branco-background: #ffffff;
+    --cinza-escuro-background: #C4C4C4;
+    --cinza-background: #E5E5E5;
+    --cinza-font: #8C8888;
+    --vinho-font: #8D0606;
+    --vinho-background: #8D0606;
+    --preto-font:#000000;
+}
+
+body {
+
+    font-family: var(--font-principal);
+    font-size: 1em;
+    font-weight: 400;
+
+    background-color: var(--cinza-background);
+}

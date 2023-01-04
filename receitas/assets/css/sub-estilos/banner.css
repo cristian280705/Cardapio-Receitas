@@ -1,0 +1,80 @@
+.banner {
+
+    background-color: var(--branco-background);
+
+    text-align: center;
+}
+
+.banner__principal {
+
+    position: relative;
+}
+
+.banner__img {
+
+    width: 100vw;
+    height: calc(100vh - 70px);
+}
+
+.banner__titulo {
+
+    font-family: var(--font-secundaria);
+    font-size: 80px;
+    font-weight: 400;
+
+    color: var(--branco-font);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    text-align: center;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+}
+
+.banner__secundario {
+
+    padding: 2em 14em;
+}
+
+.banner__subtitulo {
+
+    font-family: var(--font-secundaria);
+    font-size: 3em;
+    font-weight: 400;
+
+    color: var(--vinho-font);
+
+    line-height: 3em;
+}
+
+.banner__descriçao {
+
+    font-size: 28px;
+    font-weight: 300;
+
+    color: var(--cinza-font);
+
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner__titulo {
+
+        font-size: 60px;
+    }
+    
+    .banner__subtitulo {
+
+        font-size: 2.8rem;
+    }
+
+    .banner__secundario {
+
+        padding: 2em 0;
+    }
+}

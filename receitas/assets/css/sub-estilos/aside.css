@@ -1,0 +1,84 @@
+.secundario {
+
+    background-color: var(--branco-background);
+
+    padding: 4em;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secundario__titulo {
+
+    font-family: var(--font-secundaria);
+    font-size: 50px;
+    font-weight: 400;
+
+    color: var(--vinho-font);
+}
+
+.secundario__subtitulo {
+
+    font-size: 28px;
+    font-weight: 300;
+
+    color: var(--cinza-font);
+
+    margin: 2em 0 2.5em 0;
+}
+
+.secundario__profissionais {
+
+    display: flex;
+    justify-content: center;
+}
+
+.profissionais {
+
+    margin: 0 4em;
+}
+
+.profissionais__img {
+
+    border-radius: 100%;
+}
+
+.profissionais__titulo {
+
+    font-family: var(--font-secundaria);
+    font-size: 1.5em;
+    font-weight: 400;
+
+    color: var(--vinho-font);
+
+    line-height: 3em;
+}
+
+.profissionais__subtitulo {
+
+    font-size: 23px;
+    font-weight: 300;
+
+    color: var(--cinza-font);
+}
+
+@media screen and (max-width: 600px){
+
+    .secundario {
+
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .secundario__profissionais {
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
